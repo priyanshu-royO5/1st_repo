@@ -1,0 +1,66 @@
+body{
+  background-color: azure;
+}
+
+.container{
+  background-color:aquamarine;
+  /* height: 300px; */
+  border: 2px solid brown;
+  /* margin: 100px 50px; */
+  box-sizing:border-box;
+  padding: 23px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .child1{
+  background-color: wheat;
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+  padding: 55px;
+  border-radius: 50%;
+} */
+
+ /* div > p{    Direct descendants of div
+  background-color: rgb(220, 220, 14);
+} */
+/* div + p{/*brother of p i.e same level as div
+  background-color: rgb(220, 220, 14); 
+}*/
+
+/* #CHILD1{
+  background-color:cadetblue;
+}
+
+.myclass{
+  background-color: violet;
+} */
+
+.child1,.child2,.child3,.child4{
+  height: 250px;
+  width: 250px;
+  border: 2px solid red;
+  margin: 20px;
+  padding: 15px;
+  /* display: inline-block; */
+}
+
+.child1{
+  background-color: antiquewhite;
+}
+
+.child2{
+  background-color: aqua;
+}
+
+.child3{
+  background-color: rgb(188, 188, 54);
+}
+
+.child4{
+  background-color: blue;
+}
