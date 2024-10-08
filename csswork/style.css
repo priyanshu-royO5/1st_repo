@@ -11,9 +11,9 @@ body{
   padding: 23px;
   display: flex;
   flex-wrap: wrap;
-  flex-flow: row;
-  justify-content: center;
-  align-items: center;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+
 }
 
 /* .child1{
@@ -51,6 +51,7 @@ body{
 
 .child1{
   background-color: antiquewhite;
+  flex-basis: 50%;
 }
 
 .child2{
