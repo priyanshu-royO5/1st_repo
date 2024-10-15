@@ -58,3 +58,51 @@ li:hover{
   border: 1px solid;
   background-color: aqua;
 }
+
+.row3{
+  grid-column: 1/13;
+  grid-row: 3/4;
+}
+
+.img{
+  width: 100%;
+}
+
+.row4{
+  grid-column: 1/13;
+  grid-row: 4/5;
+  background-color: burlywood;
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid gold;
+
+  padding: 2rem 0;
+}
+
+.row41, .row42, .row43, .row44{
+  width: 23%;
+  height: auto;
+  border: 2px solid red;
+}
+
+.row41{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+}
+
+.row411, .row412, .row413, .row414{
+  border: 1px solid;
+}
+
+.row411{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: normal;
+  flex-wrap: wrap;
+}
+
+.image4{
+  width: 100%;
+}
